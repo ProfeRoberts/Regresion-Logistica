@@ -1,0 +1,129 @@
+.AlignCenter {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.M-6 {
+    margin:6px;
+}
+
+.ImageContainer {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+}
+
+
+#equis {
+    background-color: rgb(92, 7, 145);
+    width: 600px;
+    height: 550px;
+    color: white;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 7px 13px 37px #000;
+    padding : 37px;
+}
+
+#equis h1{
+    height: 10px;
+    padding: 0px 50px 50px 50px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    font-weight: bold;
+    margin:0;
+    font-size: 37px;
+}
+
+body{
+    font-family: arial;
+    /*background-color: rgb(70, 64, 120);*/
+    background-size: cover;
+    background-image: url("../img/evangelion.jpg");
+}
+
+.form-control{
+    font-weight:bold;
+    font-size:14px;
+    padding: 11px 10px;
+    margin-bottom: 15px;
+    border: 1px solid;
+    width: 100%;
+}
+
+.Boton{
+    border-radius:4px;
+    background-color: green;
+    transition-duration: 0.4s;
+    color:white;
+    width: 100%;
+    height: 40px;
+    border-style: none;
+    padding:10px;
+}
+
+.Boton:hover{
+    background-color: white;
+    color:black;
+    border-style: solid;
+}
+
+.SubTexto{
+    height: 60px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.box{
+    margin-top: 24px;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    background: rgba(0,0,0,.4);
+    border-radius: 15px;
+}
+
+.box h1{
+    font-size: 40px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+    border-bottom: none;
+}
+
+.Boton2:link, .Boton2:visited {
+    background-color: green;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 25px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 160px 20px;
+}
+  
+.Boton2:hover, .Boton2:active {
+    background-color: white;
+    color: black;
+}
+
+th{
+    text-align: center;
+    background-color: white;
+}
+
+.Tabla{
+    border: 1px double;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+  
+tbody tr:nth-child(even) {
+    background-color: rgb(200, 200, 200);
+}
+
